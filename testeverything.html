@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> Test Everything </title>
+        <style>
+            .video-grid {
+                display: grid;
+                grid-template-columns: 1fr 1fr 1fr 1fr;
+                column-gap: 16px;
+                row-gap: 40px;
+            }
+            .profile-info-grid {
+                display: grid;
+                grid-template-columns: 50px 1fr;
+            }
+            .profile {
+                display: inline-block;
+                width: 50px;
+                vertical-align: top;
+                background-color: rgb(212, 185, 185);
+            }
+            .profile-picture {
+                width: 50px;
+                border-radius: 40px;
+            }
+            .profile-info {
+                display: inline-block;
+                width: 246px;
+                background-color: rgb(247, 179, 179);
+                padding-left: 10px;
+                vertical-align: top;
+            }
+            .video-title {
+                font-size: 14px;
+                font-weight: 500;
+                line-height: 20px;
+                margin-bottom: 12px;
+            }
+            .video-author, .video-stats {
+                display: block;
+                font-size: 12px;
+                color: rgb(96, 96, 96);
+            }
+            .video-author {
+                margin-bottom: 4px;
+            }
+            
+        </style>
+    </head>
+    <body>
+        
+    </body>
+</html>
+
+<!-----Grid--profile----->
+
+<div class="video-grid">
+    <div>
+        <div class="thumbnail-row">
+            <img class="thumbnail" src="thumbnails/image1.webp">
+        </div>
+        
+        <div class="profile-info-grid">
+            <div class="profile">
+                <img class="profile-picture" src="profiles/profile.webp">
+            </div>
+<!-----Grid--profile-info----->
+            <div class="profile-info">
+                <p class="video-title">
+                    <b>chilling</b> ~ 90's r&b/soul/playlist 🎶 Mary J. Blige, Akon, Nelly, Ne-Yo, Usher
+                </p>
+
+                <p class="video-author">
+                    Nostalgia Feeling
+                </p>
+
+                <p class="video-stats">
+                    5.2M views &#183; 6 months ago 
+                </p> 
+            </div>    
+        </div>
+    </div>
+</div>
+           
